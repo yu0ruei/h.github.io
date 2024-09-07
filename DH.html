@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家庭醫生制度</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .intro {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 90%;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            background-color: #d9f7be;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+
+        .highlight ul {
+            padding-left: 20px;
+        }
+
+        .highlight li {
+            margin-bottom: 10px;
+        }
+
+        .highlight a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .highlight a:hover {
+            text-decoration: underline;
+        }
+
+        .frame {
+            padding: 20px;
+            background-color: #eaf4f4;
+            border: 1px solid #b2dfdb;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .frame p {
+            margin-bottom: 15px;
+        }
+
+        .images-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            width: 45%;
+            max-width: 200px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .image-container a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .image-container p {
+            margin: 8px 0;
+            font-size: 1em;
+            color: #2c3e50;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .intro {
+                max-width: 95%;
+            }
+
+            .image-container {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+
+            .images-row {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image-container {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>家醫平台網站</h1>
+    <h1>Family Doctor Platform Website</h1>
+
+    <h2>網站介紹</h2>
+
+    <div class="intro">
+        <p>
+            歡迎來到我們的家庭醫生平台網站！我們的網站旨在提供便捷的實體與線上登記及預約家庭醫師服務。透過這個平台，您可以輕鬆找到附近的家庭醫師並進行快速的線上預約。我們的系統專為滿足您的醫療需求而設計，無論是定期健康檢查、慢性病管理還是其他醫療服務，我們都能提供全面的支援。我們的平台還支持與LINE
+            Bot無縫整合，使得您可以通過LINE進行相同的操作，提升使用便利性。
+        </p>
+        <div class="highlight">
+            <h2>使用我們網站的好處</h2>
+            <ul>
+                <li><strong>便利的預約系統：</strong> 無論您在家還是工作中，都可以隨時通過網站或LINE Bot進行預約，省去繁瑣的預約流程。</li>
+                <li><strong>全面的醫療服務：</strong> 提供實體診所與線上診療的預約服務，滿足不同需求的醫療選擇。</li>
+                <li><strong>高效的醫療資源整合：</strong> 透過先進技術手段，實現醫療資料的無縫對接和實時更新，提高服務效率和準確性。</li>
+                <li><strong>高品質服務：</strong> 我們致力於提高服務的可及性，確保每位用戶都能輕鬆獲得所需的醫療服務。</li>
+            </ul>
+        </div>
+        <div class="frame">
+            <h2>家庭醫生制度介紹</h2>
+            <p>
+                <strong>家庭醫生制度介紹：</strong>家庭醫生制度是一種以家庭醫生為核心的醫療服務模式。家庭醫生負責病人的基本健康照護，包括預防保健、常見疾病診治、慢性病管理以及轉診到專科醫生。此制度旨在提供連續性、全面性的醫療服務，並減少醫療資源浪費。家庭醫生作為患者與醫療系統的主要聯絡人，能夠提供個性化的醫療建議和治療方案。
+            </p>
+            <h2>家庭醫生制度的角色和好處</h2>
+            <p>家庭醫生制度的角色和好處包括：</p>
+            <ul>
+                <li><strong>醫療守門員：</strong>家庭醫生制度致力於成為醫療體系的守門員，通過提供初級醫療服務來減少不必要的醫療資源浪費。家庭醫生能夠在病情初期進行診斷和治療，並根據需要將患者轉診到專科醫生，從而避免不必要的大醫院就診。
+                </li>
+                <li><strong>分級醫療體系：</strong>家庭醫生制度有助於實施分級醫療體系，確保患者根據病情的嚴重程度接受適當的醫療服務。這種分級體系能夠有效分配醫療資源，減少大醫院的壓力，提高整體醫療系統的效率。
+                </li>
+                <li><strong>減少醫療資源浪費：</strong>通過初級醫療的介入，家庭醫生可以及早發現和處理健康問題，減少急診和住院的需求，從而降低醫療費用並避免不必要的醫療浪費。</li>
+                <li><strong>提升醫療服務質量：</strong>家庭醫生能夠與患者建立長期穩定的醫療關係，提供個性化的醫療建議和治療方案，有助於提升醫療服務的質量和患者的滿意度。</li>
+                <li><strong>促進健康管理：</strong>家庭醫生負責預防保健和慢性病管理，幫助患者制定健康管理計劃，從而提高整體健康水平，減少未來的醫療需求。</li>
+            </ul>
+        </div>
+        <a href="https://lin.ee/hL3XZdy">https://lin.ee/hL3XZdy</a><br>
+        <img src="Q.png" alt="Q Image" class="q-image">
+        <h3 style="text-align: center;">
+            24小時諮詢電話:市話撥打 0800-030-598 或 4128-678（不加區域碼） 手機改撥 02-4128-678
+        </h3>
+    </div>
+
+    <h2>Website Introduction</h2>
+
+    <div class="intro">
+        <p>
+            Welcome to our Family Doctor Platform website! Our site aims to provide convenient registration and
+            appointment services for both physical and online family doctors. Through this platform, you can easily find
+            nearby family doctors and make quick online appointments. Our system is designed to meet your medical needs,
+            whether it's regular health check-ups, chronic disease management, or other medical services. Our platform
+            also supports seamless integration with LINE Bot, allowing you to perform the same operations through LINE,
+            enhancing convenience.
+        </p>
+        <div class="highlight">
+            <h2>Benefits of Using Our Website</h2>
+            <ul>
+                <li><strong>Convenient Appointment System:</strong> Whether you are at home or work, you can make
+                    appointments anytime through the website or LINE Bot, saving you from cumbersome appointment
+                    processes.</li>
+                <li><strong>Comprehensive Medical Services:</strong> Provides appointment services for both physical
+                    clinics and online consultations, catering to different medical needs.</li>
+                <li><strong>Efficient Medical Resource Integration:</strong> Utilizes advanced technology to achieve
+                    seamless integration and real-time updates of medical data, improving service efficiency and
+                    accuracy.</li>
+                <li><strong>High-Quality Service:</strong> We are committed to improving the accessibility of services,
+                    ensuring that every user can easily receive the medical services they need.</li>
+            </ul>
+        </div>
+        <div class="frame">
+            <h2>Introduction to Family Doctor System</h2>
+            <p>
+                <strong>Introduction to Family Doctor System:</strong> The family doctor system is a healthcare model
+                centered around family doctors. Family doctors are responsible for basic health care of patients,
+                including preventive care, treatment of common diseases, chronic disease management, and referrals to
+                specialists. This system aims to provide continuous and comprehensive medical services while reducing
+                waste of medical resources. As the main point of contact between patients and the medical system, family
+                doctors can provide personalized medical advice and treatment plans.
+            </p>
+            <h2>Role and Benefits of the Family Doctor System</h2>
+            <p>The role and benefits of the family doctor system include:</p>
+            <ul>
+                <li><strong>Gatekeeper of Healthcare:</strong> The family doctor system aims to act as a gatekeeper of
+                    the
+                    healthcare system by providing primary medical services to reduce unnecessary waste of medical
+                    resources. Family doctors can diagnose and treat conditions at an early stage and refer patients to
+                    specialists as needed, thus avoiding unnecessary visits to large hospitals.</li>
+                <li><strong>Tiered Medical System:</strong> The family doctor system helps implement a tiered medical
+                    system, ensuring that patients receive appropriate medical services based on the severity of their
+                    conditions. This tiered system effectively allocates medical resources, reduces the pressure on
+                    large
+                    hospitals, and improves the overall efficiency of the healthcare system.</li>
+                <li><strong>Reducing Waste of Medical Resources:</strong> Through primary medical intervention, family
+                    doctors can detect and address health issues early, reducing the need for emergency and inpatient
+                    care,
+                    thereby lowering medical costs and avoiding unnecessary waste of medical resources.</li>
+                <li><strong>Improving Quality of Medical Services:</strong> Family doctors can establish long-term,
+                    stable
+                    medical relationships with patients, providing personalized medical advice and treatment plans,
+                    which
+                    helps enhance the quality of medical services and patient satisfaction.</li>
+                <li><strong>Promoting Health Management:</strong> Family doctors are responsible for preventive care and
+                    chronic disease management, helping patients develop health management plans, thereby improving
+                    overall
+                    health levels and reducing future medical needs.</li>
+            </ul>
+        </div>
+
+
+
+        <a href="https://lin.ee/hL3XZdy">https://lin.ee/hL3XZdy</a><br>
+        <img src="Q.png" alt="Q Image" class="q-image">
+        <h3 style="text-align: center;">
+            24-hour consultation phone: Call 0800-030-598 or 4128-678 (no area code) for landline; for mobile, dial
+            02-4128-678
+        </h3>
+    </div>
+
+
+
+    <h2>功能 Features</h2>
+    <div class="images-row">
+        <div class="image-container">
+            <a href="D1.html">
+                <img src="d1.jpg" alt="評價查詢圖片">
+                <p>評價查詢</p>
+                <p>Review Inquiry</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="D2.html">
+                <img src="d2.jpg" alt="家醫登記圖片">
+                <p>家醫登記</p>
+                <p>Family Doctor Registration</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="D3.html">
+                <img src="d3.jpg" alt="實體看診預約圖片">
+                <p>實體看診預約</p>
+                <p>In-person Appointment</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="D4.html">
+                <img src="d4.jpg" alt="線上看診預約圖片">
+                <p>線上看診預約</p>
+                <p>Online Consultation Appointment</p>
+
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
